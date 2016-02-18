@@ -11,6 +11,7 @@ var i = 0;
 app.use(function (req,res,done) {
 	var data = new Date();
 	console.log("[%s][%d]\n",data,i++);
+
 	done();
 });
 
